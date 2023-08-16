@@ -22,7 +22,7 @@ Below command lines are runnable for both tensorflow and pytorch implementations
 Below hyperparameters are shared by both tensorflow and pytorch implementations.
 - -mn: model name, default = dbn (set `dbn` for DBN, and `d2bn` for D2BN)
 - -ne: number of training epochs, default = 100 (set 100 for small datasets (ds, ml, pl), and 10 for large datasets (aminer and web))
-- -no: number of optimal transport interations, default = 10
+- -no: number of optimal transport iterations, default = 10
 - -lr: learning rate, default = 0.002
 - -ms: minibatch size, default = 64
 - -dn: dataset name, default = ml
